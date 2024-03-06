@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  font-family: "Poppins", sans-serif;
+  color: #141415;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+/* nav */
+.container-general-nav {
+  border-bottom: 16px;
+  height: 101px;
+  background-color: #ABCA68;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  margin-bottom: 70px;
+  box-shadow: 1px 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.container-logo-h1 {
+  display: flex;
+  background-color: #90B63E;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  height: 85px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-logo {
+  box-shadow: 1px 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  width: 100px;
+  height: 100px;
+  margin-top: 48px;
+}
+
+.logo-nav {
+  border-radius: 16px;
+  width: 100px;
+  height: 100px;
+}
+
+.container-h1 {
+  margin-top: 25px;
+}
+
+.titulo-nav {
+  color: #141415;
+  font-weight: 300;
+  font-size: 26px;
+}
+
+/* menu  semanal  */
+.container-menu-general {
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container-textos-menu {
+  background-color: white;
+  box-shadow: 1px 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+
+.container-menu-semanal-2 {
+  background-color: #ABCA68;
+  height: 85px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 1px 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.container-menu-semanal {
+  display: flex;
+  background-color: #90B63E;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  justify-content: center;
+}
+
+.h2-menu-semanal {
+  padding: 10px;
+  color: #141415;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+/* textos dentro del menu */
+.container-text-menu {
+  padding: 20px;
+}
+
+.h3-title {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.h3-text {
+  font-weight: 300;
+}
+
+.dias-menu {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* tutorial */
+.container-general-tutorial {
+  padding: 10px;
+}
+
+.h2-tutorial {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* form */
+.container-general-form {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.container-form {
+  height: 502px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 1px 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+
+.container-nombre-apellido {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.text-nombre {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 7px 10px;
+  background-color: #ABCA68;
+  border-radius: 10px;
+}
+
+.container-selector {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.dias {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.options {
+  border: none;
+  outline: none;
+  padding: 7px 10px;
+  background-color: rgba(171, 202, 104, 0.5215686275);
+  border-radius: 10px;
+}
+
+.button {
+  font-weight: 500;
+  width: 100px;
+  border: none;
+  padding: 10px;
+  margin-top: 12px;
+  background-color: rgb(170, 205, 96);
+  color: #141415;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+/* palabraclave */
+.palabraclave {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* text success */
+.success-text {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  color: #141415;
+}
+
+.footer-container-1 {
+  border-bottom: 16px;
+  background-color: #90B63E;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: 1px 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer-2 {
+  border-bottom: 16px;
+  background-color: #ABCA68;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: 1px 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.logo-footer {
+  border-radius: 16px;
+  width: 100px;
+  height: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

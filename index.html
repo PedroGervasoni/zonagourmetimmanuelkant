@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>ZonaGourmet</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="autor" content="Pedro Gervasoni" />
+  <meta name="copyright" content="Pedro Gervasoni" />
+  <meta name="robots" content="idex" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0e0e0e" />
+  <link rel="icon" href="logo-ico.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- css -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- nav -->
+  <nav class="container-general-nav">
+    <div class="container-logo-h1">
+      <div class="container-logo">
+        <img class="logo-nav" src="images\logo-zona.jpg" alt="logo" height="150px" width="150px" />
+      </div>
+      <div class="container-h1">
+        <h1 class="titulo-nav">ELECCION DE MENU</h1>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+  <!-- menu semanal -->
+
+  <section class="container-menu-general">
+
+    <article class="container-textos-menu">
+
+      <div class="container-menu-semanal-2">
+        <div class="container-menu-semanal">
+          <h2 class="h2-menu-semanal">MENU SEMANAL</h2>
+        </div>
+      </div>
+
+
+
+      <div class="container-text-menu">
+        <h3 class="h3-title">1-ESTANDAR</h3>
+        <h3 class="h3-text">
+           <b class="dias-menu"> LUNES:</b> supremas napolitanas con pasta a la crema
+            
+          </b>
+          <br>
+          <b class="dias-menu"> MARTES:</b> carne estofada con papas
+
+          .
+          <br>
+          <b class="dias-menu"> MIERCOLES:</b> Risotto amarillo con pollo
+          <b class="dias-menu"> JUEVES:</b> canelones de verdura con salsa blanca y crema
+          <br>
+          <b class="dias-menu"> VIERNES:</b> empanadas surtidas
+        </h3>
+        <h3 class="h3-title">2-CON ENSALADA</h3>
+        <h3 class="h3-title">3-SUPER ENSALADA</h3>
+  <h3 class="h3-title">4-OTRA OPCION</h3>  
+          <h3 class="h3-text">
+        4) Milanesas de berenjenas a la pizza con calabaza ( jueves y viernes )
+        </h3>     
+      </div>
+
+
+
+    </article>
+  </section>
+
+
+
+  <section class="container-general-tutorial">
+    <article class="container-tutorial">
+      <h2 class="h2-tutorial">
+        Completa tus datos, elegí tu opción de menú diaria y tocar "enviar" solo una vez
+      </h2>
+    </article>
+  </section>
+
+
+
+
+
+
+
+  <section class="container-general-form">
+    <div class="container-form">
+      <form name="submit-to-google-sheet">
+
+
+        <div class="container-nombre-apellido">
+          <div class="form-nombre">
+            <label class="text-nombre">Nombre:</label>
+            <input class="input" type="text" name="nombre" required />
+          </div>
+
+          <div class="form-apellido">
+            <label class="text-nombre">Apellido:</label>
+            <input class="input" type="text" name="apellido" required />
+          </div>
+        </div>
+
+        <div class="container-selector">
+          <label class="dias" for="selector">Lunes:</label>
+          <select class="options" name="lunes" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">0</option>
+          </select>
+        </div>
+
+        <div class="container-selector">
+          <label class="dias" for="selector">Martes:</label>
+          <select class="options" name="martes" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">0</option>
+          </select>
+        </div>
+
+        <div class="container-selector">
+          <label class="dias" for="selector">Miercoles:</label>
+          <select class="options" name="miercoles" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">0</option>
+          </select>
+        </div>
+
+        <div class="container-selector">
+          <label class="dias" for="selector">Jueves:</label>
+          <select class="options" name="jueves" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">0</option>
+          </select>
+        </div>
+
+        <div class="container-selector">
+          <label class="dias" for="selector">Viernes:</label>
+          <select class="options" name="viernes" required>
+            
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">0</option>
+          </select>
+        </div>
+
+
+
+        <form action="#" method="post">
+          <label class="palabraclave" for="clave">Introduce la palabra clave:</label>
+          <input type="text" id="clave" name="clave">
+          <div class="container-button" style="display: none;">
+            <input class="button" type="submit" name="submit" />
+          </div>
+
+
+
+
+
+          <div class="container-success">
+            <span class="success-text" id="success"></span>
+          </div>
+
+
+
+
+
+        </form>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <footer class="footer-container-1">
+    <div class="footer-2">
+    <img class="logo-footer" src="images\logo-zona.jpg" alt="logo" height="150px" width="150px" />
+  </div>
+  </footer> -->
+
+  <script>
+    var palabraClave = "LINDE"; // Palabra clave
+
+    // Función que se ejecuta al enviar el formulario
+    document.querySelector("form").addEventListener("submit", function () {
+      // Ocultar el botón de enviar
+      document.querySelector(".container-button").style.display = "none";
+    });
+
+    // Función que se ejecuta cada vez que se introduce un carácter en el input
+    document.getElementById("clave").addEventListener("input", function () {
+      var valor = this.value.toUpperCase(); // Convertir el valor a mayúsculas
+
+      // Si la palabra clave es correcta, mostrar el botón de enviar
+      if (valor === palabraClave) {
+        document.querySelector(".container-button").style.display = "block";
+      } else {
+        document.querySelector(".container-button").style.display = "none";
+      }
+    });
+  </script>
+
+
+
+  <script>
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbzRJ1pJW7OhUG3QovwQrlmIYxndMEkor3sVNWhvsu-3RaLUkklFAA_kduFNxYzN0aBA7g/exec";
+    const form = document.forms["submit-to-google-sheet"];
+    const success = document.getElementById("success")
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, {
+          method: "POST",
+          body: new FormData(form)
+        })
+        .then(response => {
+          success.innerHTML = "Menu semanal enviado";
+
+          setTimeout(function () {
+            success.innerHTML = "";
+          }, 5000)
+          form.reset();
+        })
+        .catch((error) => console.error("Error!", error.message));
+    });
+  </script>
+</body>
+
+</html>
